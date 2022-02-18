@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout/layout">
+<th:block layout:fragment="content">
+<!-- css -->	
+<link th:href="@{/css/content/login.css}" rel="stylesheet" />
+	<div>
+		<form>
+			<input type="text" placeholder="아이디">
+			<input type="password" placeholder="비밀번호">		
+		</form>
+	<div>
+</th:block>
+</html>
